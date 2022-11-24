@@ -1,0 +1,21 @@
+.contant{
+    margin: 30px;
+    text-align:justify;
+    display: flex;
+
+    
+}
+.line{
+    margin-left: 90px;
+    width: 800px;
+    height: auto;
+    font-size: 20px;
+
+}
+
+.thumbnail img{
+    margin: 40px;
+    width: 200px;
+    border: 5px solid grey;
+    border-radius: 10%;
+}

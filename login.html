@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+    width: 100%;
+    font-size: 15px;
+    padding: 11px;
+    margin: 2px 0 14px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+label{
+   font-size: 15px;
+}
+input[type=text]:focus, input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+}
+hr {
+   border: 1px solid #eec12e;
+   margin-bottom: 20px;
+}
+button {
+   font-size: 16px;
+   background-color: rgb(11, 70, 117);
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 25%;
+   opacity: 0.9;
+}
+button:hover {
+   opacity:1;
+}
+.cancel {
+   padding: 14px 20px;
+   background-color: rgb(11, 70, 117);
+}
+.formContainer {
+    margin-left: 25%;
+    align-items: unset;
+    padding: 16px;
+    width: 50%;
+    height: 400px;
+}
+.formContainer p{
+   font-size: 16px;
+}
+</style>
+<body>
+<form>
+<div class="formContainer">
+<h2>Login</h2>
+<hr>
+<label for="email"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="Username" required>
+<label for="password"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="password" required>
+<div>
+<button type="submit" class="signup">Login</button>
+<button type="button" class="cancel">Cancel</button>
+</div>
+</div>
+</form>
+</body>
+</html>
