@@ -1,2 +1,0 @@
-this is a first line and nothing else.
-now second line written by vim command.
